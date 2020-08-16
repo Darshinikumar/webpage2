@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Light Bulb</title>
+  
+<style>
+ 
+  h2
+  {
+	font-size:40px;
+	position:fixed;
+	bottom:60%;
+	right:3%;
+  }
+   #bodyHolder
+	{
+    margin-top:50px;
+	}
+    .bulbHolder 
+	{
+     text-align: center;
+     }
+	 #t1
+   {
+	background-color:grey;
+	width:300px;
+	height:300px;
+	position:fixed;
+	bottom:20%;
+	right:12%;
+	
+  }
+  
+  header
+{	color:cyan;
+	font-size:80px;
+	text-align:center;
+}
+
+</style>
+
+</head>
+
+
+<body>
+<script type ="text/javascript" src="script.js">
+</script>
+
+<header>Second assignment</header>
+<hr>
+<p><h1 style="color:blue;">"Every next level of your life will demand a new you."</h1></p> 
+
+<svg height="900" width="1000">
+<circle cx="300" cy="250" r="200" stroke="purple" stroke-width="50px" fill="skyblue">
+</circle>
+<text fill="black" font-size="55px" font-family="ariel" x="150" y="250">
+Bulb glowing
+</text>
+</svg>
+
+<h2>click on bulb to make it ON/OFF</h2>
+
+
+<button id="t1">
+  <div id="bodyHolder">
+    <div class="bulbHolder">
+      <img src="https://www.w3schools.com/js/pic_bulboff.gif" alt="light" id="myBulb" onclick="lightBulb()" height="200" width="100">
+    </div>
+  </div>
+</button>  
+</body>
+
+</html>
+
+
+
+
+
